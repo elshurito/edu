@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
-import os, sys, time
+import time
 
-#try:
-#	os.system('clear')
-#except:
-#	os.system('cls')
-
+# picture
 happy_text_1 = u"█  █  ████  ███  ████"
 happy_text_2 = u"█ █   █  █   █   █  █"
 happy_text_3 = u"██    ████   █   ████"
@@ -58,6 +54,8 @@ happy_text_48 =u"________________$$$_$_____$______$_$$$ "
 happy_text_49 =u"______________________$$$$___$$$$$_____ "
 happy_text_50 =u" "
 happy_text_51 =u"Вот, тебе рисунок котика!"
+
+#list of strings
 kstr=[happy_text_1,happy_text_2,happy_text_3, 
 happy_text_4, happy_text_5, happy_text_6, happy_text_7, happy_text_8,
 happy_text_9, happy_text_10, happy_text_11,happy_text_12, happy_text_13, happy_text_14,
@@ -68,6 +66,8 @@ happy_text_33, happy_text_34, happy_text_35,happy_text_36, happy_text_37, happy_
 happy_text_39, happy_text_40, happy_text_41,happy_text_42, happy_text_43, happy_text_44,
 happy_text_45, happy_text_46, happy_text_47,happy_text_48, happy_text_49, happy_text_50,
 happy_text_51]
+
+#output picture
 for y in xrange(len(kstr)):
 	for x in xrange(len(kstr[y])):
 		if x < len(kstr[y])-1:
