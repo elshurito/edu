@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
-import time
+import time, sys
 
 # picture
 happy_text_1 = u"█  █  ████  ███  ████"
